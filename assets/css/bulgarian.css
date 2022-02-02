@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
 a,
 a:hover,
@@ -9,7 +9,9 @@ a:visited {
 	outline: none;
 }
 
-
+body {
+  font-family: "Oswald", sans-serif;
+}
 
 /*Header*/
 header {
@@ -32,14 +34,11 @@ header nav ul li a:hover {
 	color: red;
 }
 
-
-
-.photo img {
-    width: 50%;
-    border: 3px solid black;
-    height: 400px;
-    margin-left: 300px;
+.journal {
+	text-align: center;
+	padding-left: 800px;
 }
+
 
 .logo img {
 	width: 70%;
