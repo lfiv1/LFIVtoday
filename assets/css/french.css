@@ -69,3 +69,19 @@ footer a i {
 footer a i:hover {
 	color: black;
 }
+
+@media only screen and (max-width: 991px) {
+	header nav ul li {
+		margin: 15px;
+	}
+
+	.journal p {
+		width: 100%;
+	}
+
+	.journal {
+		text-align: center;
+		padding-left: 10px;
+	}
+
+}
