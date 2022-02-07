@@ -22,7 +22,7 @@ header {
 header nav ul li {
 	display: inline-block;
 	font-size: 24px;
-	margin: 20px;
+	margin: 15px;
 }
 
 header nav ul li a {
@@ -38,10 +38,25 @@ header nav ul li a:hover {
 	width: 70%;
 }
 
-.journal {
+.journal p {
 	text-align: center;
-	padding-left: 800px;
 }
+
+.popular_games {
+	padding: 100px 0;
+	text: center;
+}
+
+.popular_games img {
+	width: 100%;
+	margin: 40px 0;
+	transition: 0.3s;
+}
+
+.popular_games img:hover {
+	transform: scale(0.9);
+}
+
 
 header p {
 	font-size: 20px;
@@ -65,18 +80,18 @@ footer a i:hover {
 	color: black;
 }
 
-@media only screen and (max-width: 991px) {
-	header nav ul li {
-		margin: 15px;
-	}
 
-	.journal p {
-		width: 100%;
+	
+@media only screen and (max-width: 768px)
+{
+	.card card-body
+	.game,
+	.populat_game img {
+		width: 75%;
+		margin: 20px auto;
 	}
-
-	.journal {
-		text-align: center;
-		padding-left: 10px;
-	}
-
 }
+	
+
+
+
