@@ -57,6 +57,10 @@ body p {
 	font-size: 17px;
 }
 
+.kukeri h1 {
+	font-weight: bold;
+}
+
 .flip-card {
 	display: inline-block;
 }
