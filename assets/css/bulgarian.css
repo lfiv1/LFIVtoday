@@ -53,7 +53,9 @@ header nav ul li a:hover {
 	transition: 0.3s;
 }
 
-
+body p {
+	font-size: 17px;
+}
 
 .flip-card {
 	display: inline-block;
@@ -102,6 +104,7 @@ header nav ul li a:hover {
   color: white;
   transform: rotateY(180deg);
 }
+
 
 
 header p {
