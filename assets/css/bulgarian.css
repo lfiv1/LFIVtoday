@@ -137,8 +137,12 @@ footer a i:hover {
 {
 	.card card-body
 	.game,
-	.populat_game img {
-		width: 75%;
+	.popular_game img {
+		width: 65%;
 		margin: 20px auto;
+	}
+
+	.kukeri img {
+		width: 30%;
 	}
 }
