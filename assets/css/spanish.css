@@ -53,9 +53,7 @@ header nav ul li a:hover {
 	transition: 0.3s;
 }
 
-.popular_games img:hover {
-	transform: scale(0.9);
-}
+
 
 
 header p {
